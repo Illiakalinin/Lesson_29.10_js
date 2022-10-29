@@ -89,3 +89,83 @@
 const obj = {};
 
 // typeof значення
+
+// операціі
+
+// const a = 1; // ініціалізація - присвоєння при оголошенні
+// const b = 2;
+
+// let c = null; // ініціалізація
+// c = a + b; // присвоєння
+
+// console.log("c :>> ", c);
+
+// console.log("1 + 2 =", 1 + 2);
+// console.log("1 - 2 =", 1 - 2);
+// console.log("1 * 2 =", 1 * 2);
+// console.log("1 / 2 =", 1 / 2);
+// console.log("1 % 2 =", 1 % 2); // остача від ділення
+// // 7/2 = 3 (1)/2
+// console.log("2 ** 2", 2 ** 2);
+// console.log("Math.sqrt(9) :>> ", Math.sqrt(9));
+// console.log("Math.abs(-10) :>> ", Math.abs(-10));
+
+// // task a = 3, b = 4; c - ?
+// const a = 3;
+// const b = 4;
+// const c = Math.sqrt(a ** 2 + b ** 2);
+// console.log("c :>> ", c);
+
+// // Дано: а = 5; S-?, P-?
+// const squareSide = 5;
+// const S = Math.pow(squareSide, 2); // squareSide ** 2;
+// const P = squareSide * 4;
+// console.log("P", P);
+// console.log("S", S);
+
+// let value = 10;
+// value += 20; // value = value + 20;
+// console.log("value :>> ", value);
+
+// let value2 = 10;
+// value2 -= 20; // value2 = value2 - 20;
+// console.log("value2 :>> ", value2);
+// // э *=, /=
+
+// i = i + 1
+// i += 1
+// i++, ++i
+
+// let i = 1;
+// постфіксний інкремент i++
+// console.log("i++ :>> ", i++);
+// console.log("i :>> ", i);
+
+// let j = 1;
+// інфіксний інкремент ++j
+// console.log("++j :>> ", ++j);
+// console.log("j :>> ", j);
+
+// постфіксний декремент k--
+
+// інфіксний декремент --l
+// let l = 1;
+// console.log(--l);
+// console.log("l :>> ", l);
+
+// Приорітетність операцій
+
+// const result = 2 ** (3 ** 2);
+
+// ("5");
+// console.log('Number("5") :>> ', Number("5"));
+// console.log("true :>> ", Number(true));
+// console.log("false :>> ", Number(false));
+// console.log("null :>> ", Number(null));
+// console.log("undefined :>> ", Number(undefined));
+// console.log("55n :>> ", Number(55n));
+
+const inputValue = +prompt("Введіть число:");
+const inputValue2 = Number(prompt("Введіть число:"));
+const result = inputValue + inputValue2;
+console.log("result", result);
